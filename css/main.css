@@ -1,0 +1,552 @@
+@charset "utf-8";
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #1c120a;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #abe9f7;
+    text-shadow: none;
+}
+
+::selection {
+    background: #abe9f7;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #1c120a;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #1c120a;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    font-family: Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+/* ===================
+    ALL: Theme color
+    http://coolors.co/bd155c-1c120a-abe9f7-756f6a-e6e1d1
+   =================== */
+
+.header-container {
+}
+
+.footer-container {
+}
+
+.header-container,
+.footer-container {
+    background: #fefefe;
+}
+
+.title {
+  color: #fefefe;
+}
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+a,
+a:hover
+a:hover,
+a:visited {
+    color: #1c120a;
+    text-decoration: none;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+
+    color: #fefefe;
+    background: #94959c;
+    width: 31.5%;
+}
+
+nav a:hover,
+nav a:visited {
+    color: #fefefe;
+}
+
+nav a:hover {
+    text-decoration: none;
+    background: #1c120a;
+    transition: background .5s ease;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 20px 0;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.footer-container footer {
+    color: #fefefe;
+    padding: 20px 0;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+  display: none;
+}
+
+.title a {
+  text-decoration: none;
+}
+
+header h1 {
+  margin: .25em 0;
+}
+
+#img-logo {
+  width: 80px;
+}
+
+section {
+  border-radius: 8px;
+  border: 5px solid #1c120a;
+  padding: 30px;
+  min-height: 300px;
+}
+section h1 {
+  border-bottom: 1px solid #1c120a;
+  padding-bottom: 20px;
+}
+section h3 small {
+  background-color: #70b55b;
+  border-radius: 3px;
+  color: #fefefe;
+  font-size: 60%;
+  margin-left: 10px;
+  padding: 3px;
+}
+section table th {
+  text-align: left;
+  padding: 5px 20px;
+  white-space: nowrap;
+}
+
+.outline a {
+  color: #70b55b;
+}
+.outline a.address {
+  color: #1c120a;
+  text-decoration-line: underline;
+}
+.outline a img,
+.outline a span {
+  float: left;
+  display: block;
+}
+.outline a span {
+  padding-top: 10px;
+}
+.outline a img {
+  border-radius: 72px;
+  border: 1px solid #ccc;
+  padding: 2px;
+  width: 72px;
+  margin-right: 20px;
+}
+
+.members ol {
+  padding: 0;
+}
+
+.members li {
+  float: left;
+  border-radius: 4px;
+  border: 1px solid #1c120a;
+  list-style: none;
+  margin: 5px;
+  padding: 5px;
+  font-size: 80%;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  position: relative;
+}
+.members li div {
+  margin: 8px 0;
+}
+.members li p {
+  margin: 0;
+  padding: 0;
+  line-height: 12px;
+}
+.members li div img {
+  border-radius: 60px;
+  border: 1px solid #ccc;
+  padding: 2px;
+  width: 60px;
+}
+.members li small img {
+  position: absolute;
+  width: 16px;
+  right: 10px;
+  bottom: 10px;
+}
+.links a {
+  text-decoration: underline;
+}
+
+.footer-container footer {
+    color: #fefefe;
+    padding: 0;
+}
+.footer-container footer h3 {
+  float: right;
+  font-size: .8em;
+  color: #1c120a;
+}
+
+nav a {
+  float: left;
+  min-width: 80px;
+  margin: 2px;
+  padding: 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+nav a.active {
+  background-color: #70b55b
+}
+
+.cooper {
+    font-family: cooper-black-std, cooper black, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+
+
+
+/* ==========================================================================
+   svg
+   ========================================================================== */
+svg, .svg-text{
+  animation:         DASH 3s ease-in 0s;
+  -webkit-animation: DASH 3s ease-in 0s;
+  -o-animation:      DASH 3s ease-in 0s;
+  animation:         DASH 3s ease-in 0s;
+  stroke:#333;
+  fill: #333;
+  stroke-width:.2;
+  stroke-dasharray: 3000;
+  stroke-dashoffset:3000;
+}
+@-webkit-keyframes DASH{
+  0%{stroke-dashoffset:3000;fill:#fff;}
+  30%{stroke-dashoffset:3000;}
+  80%{stroke-dashoffset:2000;fill:#fff;}
+  90%{stroke-dashoffset:0;}
+  100%{fill:#333333;}
+}
+@keyframes DASH{
+  0%{stroke-dashoffset:3000;fill:#fff;}
+  30%{stroke-dashoffset:3000;}
+  80%{stroke-dashoffset:2000;fill:#fff;}
+  90%{stroke-dashoffset:0;}
+  100%{fill:#333333;}
+}
+@-moz-keyframes DASH{
+  0%{stroke-dashoffset:3000;fill:#fff;}
+  30%{stroke-dashoffset:3000;}
+  80%{stroke-dashoffset:2000;fill:#fff;}
+  100%{stroke-dashoffset:0;fill:#333;}
+}
+@-o-keyframes DASH{
+  0%{stroke-dashoffset:3000;fill:#fff;}
+  30%{stroke-dashoffset:3000;}
+  80%{stroke-dashoffset:2000;fill:#fff;}
+  100%{stroke-dashoffset:0;fill:#333;}
+}
+@-ms-keyframes DASHf{
+  0%{stroke-dashoffset:3000;fill:#fff;}
+  30%{stroke-dashoffset:3000;}
+  80%{stroke-dashoffset:2000;fill:#fff;}
+  100%{stroke-dashoffset:0;fill:#333;}
+}
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+  nav a {
+    max-width: 100px;
+    font-size: 13px;
+  }
+
+  header h1 {
+    margin: .67em 0;
+  }
+
+  #img-logo {
+    width: 190px;
+  }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+    .header-container {
+      padding: 30px 30px 0 30px;
+    }
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    .title {
+      margin: 0;
+    }
+
+    nav {}
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
